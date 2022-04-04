@@ -77,8 +77,14 @@ img {
     font-size: 12px;
     line-height: 150%;
     margin-right: 8px;
+    .day-name{
+      display: none;
+    }
     @include screen-md {
       font-size: 16px;
+      .day-name{
+        display: inline-block;
+      }
     }
   }
 }

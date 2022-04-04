@@ -7,7 +7,7 @@
   </nav>
   <div class="news-header">
     <h1 class="news-header-h1">Latest News</h1>
-    <p class="news-header-date">February 18, 2022</p>
+    <p class="news-header-date"> <span class="day-name">Friday,</span> February 18, 2022</p>
     <span
       :class="['sort-icon', { 'ascending-order': isDateAscendingOrder }]"
       @click="toggleSortingOrder"
