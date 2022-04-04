@@ -1,0 +1,31 @@
+
+// Colors
+$black: black;
+$black-80: rgba($black, 0.8);
+$black-60: rgba($black, 0.6);
+$black-40: rgba($black, 0.6);
+$black-20: rgba($black, 0.2);
+$white : #F8F8F8;
+$light: #FDFDFD;
+
+
+// breakpoints
+$screen-xs: 0;
+// Small screen / phone 375px
+$screen-sm: 375	px; //576px
+// Medium screen / tablet
+$screen-md: 768px;
+// Large screen / desktop
+$screen-lg: 1440px;
+
+
+// mixins
+@mixin screen-sm {
+	@media screen and (min-width: $screen-sm ) { @content; }
+}
+@mixin screen-md {
+	@media screen and (min-width: $screen-md ) { @content; }
+}
+@mixin screen-lg {
+	@media screen and (min-width: $screen-lg ) { @content; }
+}
